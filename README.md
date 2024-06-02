@@ -8,7 +8,7 @@ This Tool is made for educational purposes only. Do not attempt to violate the l
 
 It only demonstrates "how phishing works". You shall not misuse the information to gain unauthorized access to someones social media. However you may try out this at your own risk.
 
-Features
+<h1>Features</h1>
 Latest and updated login pages.
 Beginners friendly
 Multiple tunneling options
@@ -18,21 +18,21 @@ LocalXpose
 Mask URL support
 Docker support
 Installation
-Just, Clone this repository -
 
-git clone --depth=1 https://github.com/htr-tech/zphisher.git
-Now go to cloned directory and run zphisher.sh -
+Just, Clone this repository -
+git clone https://github.com/whitedevil-21/Devil-Phishing.git
+Now go to cloned directory and run bash devil-phishing.sh 
 
 $ cd zphisher
-$ bash zphisher.sh
-On first launch, It'll install the dependencies and that's it. Zphisher is installed.
+$ bash devil-phishing.sh
+On first launch, It'll install the dependencies and that's it. Devil-Phishing is installed.
 
 Installation (Termux)
 You can easily install zphisher in Termux by using tur-repo
 
 $ pkg install tur-repo
-$ pkg install zphisher
-$ zphisher
+$ pkg install Devil-Phishing
+$ devil-phishing
 A Note :
 Termux discourages hacking .. So never discuss anything related to zphisher in any of the termux discussion groups. For more check : wiki
 
@@ -54,9 +54,9 @@ Run on Docker
 Docker Image Mirror:
 
 DockerHub :
-docker pull htrtech/zphisher
+docker pull htrtech/devil-phishing
 GHCR :
-docker pull ghcr.io/htr-tech/zphisher:latest
+docker pull ghcr.io/htr-tech/devil-phishing:latest
 By using the wrapper script run-docker.sh
 
 $ curl -LO https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh
