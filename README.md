@@ -9,8 +9,8 @@ pkg install git
 pkg install python -y
 pkg install python2 -y 
 pkg install wget -y
-git clone 
+git clone https://github.com/whitedevil-21/Devil-Phishing.git
 ls
-cd
+cd devil-phishing
 ls
 bash devil-phishing.sh
